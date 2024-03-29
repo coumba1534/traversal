@@ -5,6 +5,6 @@ on: [push]
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    steps: Checkout Code
-    - name:
+    steps: 
+    - name: Checkout Code
       uses: actions/checkout@v4
