@@ -3,7 +3,7 @@ name: 'Deploy App to S3'
 on: [push]
 
 jobs:
-  deployment:
+  deploy:
     runs-on: ubuntu-latest
     steps: Checkout Code
     - name:
