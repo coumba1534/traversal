@@ -17,8 +17,12 @@ jobs:
       run: |
         ls -la
 
+    - name: Create File
+      run: |
+        touch new_file.txt
+
     - name: List directory
       run: |
-        touch new_file.txt    
+        ls -la        
 
     
